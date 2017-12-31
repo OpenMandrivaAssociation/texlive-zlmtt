@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.0
 Name:		texlive-zlmtt
-Version:	1.0
-Release:	5
+Version:	1.01
+Release:	1
 Summary:	Use Latin Modern Typewriter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/zlmtt
