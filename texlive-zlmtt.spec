@@ -1,18 +1,12 @@
-# revision 32984
-# category Package
-# catalog-ctan /fonts/zlmtt
-# catalog-date 2014-02-16 09:31:31 +0100
-# catalog-license lppl1.3
-# catalog-version 1.0
 Name:		texlive-zlmtt
-Version:	1.01
-Release:	2
+Version:	64076
+Release:	1
 Summary:	Use Latin Modern Typewriter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/zlmtt
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zlmtt.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zlmtt.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zlmtt.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zlmtt.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ with scaling and access to all its features. The package
 requires the mweights package.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -58,7 +52,7 @@ requires the mweights package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
