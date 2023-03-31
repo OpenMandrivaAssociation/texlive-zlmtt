@@ -1,6 +1,6 @@
 Name:		texlive-zlmtt
 Version:	64076
-Release:	1
+Release:	2
 Summary:	Use Latin Modern Typewriter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/zlmtt
