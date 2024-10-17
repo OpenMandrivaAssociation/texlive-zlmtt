@@ -3,7 +3,7 @@ Version:	64076
 Release:	2
 Summary:	Use Latin Modern Typewriter fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/zlmtt
+URL:		https://www.ctan.org/tex-archive/fonts/zlmtt
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zlmtt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/zlmtt.doc.r%{version}.tar.xz
